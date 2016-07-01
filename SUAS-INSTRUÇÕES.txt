@@ -1,2 +1,7 @@
-Coloque aqui suas instruções ou comentários que ache útil/relevantes para possamos ler 
-quando estivermos avaliando a sua solução
+Para rodar o programa:
+- Utilizar o comando do maven 'mvn clean install' para gerar o .jar
+- Entrar na pasta 'target' do projet e, via command, executar o comando 'java -jar amil-api.jar'
+
+Algumas consideraÃ§Ãµes:
+- Criei a arquitetura em um projeto me baseando no conceito que utilizo geralmente para projetos web (sem o repository porque nÃ¡o tem acesso a nenhum banco de dados): controller(substituindo um projeto web), business e core.
+- Criei um caso de teste simples sÃ³ se basendo no sucesso pois nÃ£o utilizei nenhum framework especÃ­fico de teste para testar Exceptions (por example EasyMock/PowerMock)
